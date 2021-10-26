@@ -1,11 +1,11 @@
 import Layout from "src/components/layout";
 
-const HomePage = () => {
+const ContactPage = () => {
     return (
         <Layout>
-            <h3>HomePage</h3>
+            <h3>ContactPage</h3>
         </Layout>
     );
 };
 
-export default HomePage;
+export default ContactPage;

@@ -1,14 +1,26 @@
 import Nav from 'src/components/nav';
-
+import Container from '@mui/material/Container';
+import PropTypes from 'prop-types';
 const Layout = ({
-    children
+    children, maxWidth
 }) => {
     return (
         <>
             <Nav />
-            {children}
+            <Container maxWidth={maxWidth}>
+                {children}
+            </Container>
         </>
     )
+}
+
+Layout.prototype = {
+    children: PropTypes.element,
+    maxWidth: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl'])
+}
+
+Layout.defaultProps = {
+    maxWidth: 'lg'
 }
 
 export default Layout;
