@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/link-passhref */
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -35,12 +37,27 @@ const MobileDrawer = () => {
             >
                 <MenuIcon />
             </IconButton>
+            <Link href="/" >
+                <Box
+                    sx={{
+                        cursor: 'pointer',
+                        width: '96px',
+                        height: '48px',
+                        background: "url('/img/logo.png') center center",
+                        backgroundSize: "cover",
+                        ml: {
+                            xs: 'calc(50vw - 100px)',
+                            md: 0
+                        }
+                    }}
+                />
+            </Link>
             <Drawer
                 anchor={'left'}
                 open={open}
                 onClose={() => setOpen(false)}
             >
-                <Box sx={{ width: '75vw', maxWidth: 320}}>
+                <Box sx={{ width: '60vw', maxWidth: 320, minWidth: 250 }}>
                     {links.map((link, i) => (
                         <div key={i}>
                             <Link href={link.href}>
@@ -57,7 +74,7 @@ const MobileDrawer = () => {
 const Nav = () => {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
+            <AppBar position="fixed" color="transparent" sx={{ background: '#fff' }} >
                 <Container maxWidth="lg">
                     <Toolbar variant="dense" sx={{ p: '0 !important' }}>
                         <MobileDrawer />
