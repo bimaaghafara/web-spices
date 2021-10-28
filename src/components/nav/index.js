@@ -18,6 +18,21 @@ const links = [
     { href: '/contact', label: 'contact' },
 ]
 
+const Logo = ({ sx }) => (
+    <Link href="/" >
+        <Box
+            sx={{
+                cursor: 'pointer',
+                width: '96px',
+                height: '48px',
+                background: "url('/img/logo.png') center center",
+                backgroundSize: "cover",
+                ...sx
+            }}
+        />
+    </Link>
+);
+
 const MobileDrawer = () => {
     const [open, setOpen] = React.useState(false);
     return (
@@ -37,27 +52,19 @@ const MobileDrawer = () => {
             >
                 <MenuIcon />
             </IconButton>
-            <Link href="/" >
-                <Box
-                    sx={{
-                        cursor: 'pointer',
-                        width: '96px',
-                        height: '48px',
-                        background: "url('/img/logo.png') center center",
-                        backgroundSize: "cover",
-                        ml: {
-                            xs: 'calc(50vw - 100px)',
-                            md: 0
-                        }
-                    }}
-                />
-            </Link>
+            <Logo sx={{
+                ml: {
+                    xs: 'calc(50vw - 100px)',
+                    md: 0
+                }
+            }}/>
             <Drawer
                 anchor={'left'}
                 open={open}
                 onClose={() => setOpen(false)}
             >
-                <Box sx={{ width: '60vw', maxWidth: 320, minWidth: 250 }}>
+                <Box sx={{ width: '60vw', maxWidth: 320, minWidth: 250, p: '12px' }}>
+                    <Logo />
                     {links.map((link, i) => (
                         <div key={i}>
                             <Link href={link.href}>

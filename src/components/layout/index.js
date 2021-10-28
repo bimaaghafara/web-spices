@@ -16,7 +16,7 @@ const Layout = ({
 
 Layout.prototype = {
     children: PropTypes.element,
-    maxWidth: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl'])
+    maxWidth: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl', 'false'])
 }
 
 Layout.defaultProps = {
