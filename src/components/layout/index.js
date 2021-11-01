@@ -7,7 +7,7 @@ const Layout = ({
     return (
         <>
             <Nav />
-            <Container maxWidth={maxWidth} sx={{ mt: '48px' }}>
+            <Container maxWidth={maxWidth} sx={{ mt: {xs: '56px', md: '64px'} }}>
                 {children}
             </Container>
         </>

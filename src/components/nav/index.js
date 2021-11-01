@@ -81,7 +81,11 @@ const MobileDrawer = () => {
 const Nav = () => {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="fixed" color="transparent" sx={{ background: '#fff' }} >
+            <AppBar
+                position="fixed"
+                color="transparent"
+                sx={{ background: '#fff', p: {xs: '4px 0', md: '8px 0'} }}
+            >
                 <Container maxWidth="lg">
                     <Toolbar variant="dense" sx={{ p: '0 !important' }}>
                         <MobileDrawer />

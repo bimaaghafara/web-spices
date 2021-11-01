@@ -1,9 +1,10 @@
 import Layout from "src/components/layout";
+import AboutUs from "./components/about-us";
 
 const AboutUsPage = () => {
     return (
         <Layout>
-            <h3>AboutUsPage</h3>
+            <AboutUs />
         </Layout>
     );
 };
