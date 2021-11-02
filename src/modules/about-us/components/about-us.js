@@ -21,12 +21,13 @@ const SmallBox = ({
 
 const AboutUs = () => (
     <Container maxWidth="lg">
-        <Grid container spacing={2} sx={{ pt: '32px' }}>
+        <Grid container spacing={2} sx={{ pt: '54px' }}>
             <Grid item xs={12} sm={7}>
                 <Box>
                     <Typography variant="h3" sx={{ fontSize: {xs: '2rem', md: '3rem' }}} >About Us</Typography>
                     <Box sx={{
                         '& p': {
+                            textAlign: 'justify',
                             xs: {
                                 fontSize: '12px',
                                 lineHeight: 2
@@ -48,7 +49,12 @@ const AboutUs = () => (
             </Grid>
             <Grid item xs={12} sm={5}>
                 <Box
-                    sx={{ pb: '100%', position: 'relative', m: '18px' }}
+                    sx={{
+                        width: ['70%', '70%', '100%'],
+                        pb: ['70%', '70%', '100%'],
+                        position: 'relative',
+                        m: '18px auto'
+                    }}
                 >
                     <SmallBox
                         sx={{ background: '#f009', top: '50%' }}
