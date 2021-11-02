@@ -1,9 +1,10 @@
 import Layout from "src/components/layout";
+import Products from "src/modules/home/components/products";
 
 const ProductsPage = () => {
     return (
         <Layout>
-            <h3>ProductsPage</h3>
+            <Products />
         </Layout>
     );
 };

@@ -7,6 +7,7 @@ import Layout from "src/components/layout";
 import HomeBanner from "./components/home-banner";
 import AboutUs from "src/modules/about-us/components/about-us";
 import KeyFeatures from "./components/key-features";
+import Products from "./components/products";
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <HomeBanner />
             <AboutUs />
             <KeyFeatures />
+            <Products />
         </Layout>
     );
 };
