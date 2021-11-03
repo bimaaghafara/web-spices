@@ -1,4 +1,5 @@
 import Nav from 'src/components/nav';
+import Footer from 'src/components/footer';
 import Container from '@mui/material/Container';
 import PropTypes from 'prop-types';
 const Layout = ({
@@ -10,6 +11,7 @@ const Layout = ({
             <Container maxWidth={maxWidth} sx={{ mt: {xs: '56px', md: '64px'} }}>
                 {children}
             </Container>
+            <Footer />
         </>
     )
 }
