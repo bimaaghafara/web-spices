@@ -32,7 +32,7 @@ const Products = () => {
         ],
     };
     return (
-        <Container maxWidth="lg" sx={{ pt: '48px', mb: '24px' }}>
+        <Container maxWidth="lg" sx={{ pt: '48px'}}>
             <Typography variant="h3" sx={{ mb: '24px', fontSize: {xs: '2rem', md: '3rem', textAlign: 'center' }}}>
                 Our Products
             </Typography>

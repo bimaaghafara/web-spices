@@ -8,6 +8,7 @@ import HomeBanner from "./components/home-banner";
 import AboutUs from "src/modules/about-us/components/about-us";
 import KeyFeatures from "./components/key-features";
 import Products from "./components/products";
+import Teams from "./components/teams";
 
 const HomePage = () => {
     return (
@@ -16,6 +17,7 @@ const HomePage = () => {
             <AboutUs />
             <KeyFeatures />
             <Products />
+            <Teams />
         </Layout>
     );
 };
