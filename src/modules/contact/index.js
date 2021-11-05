@@ -3,6 +3,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import IconButton from '@mui/material/IconButton';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -33,6 +34,17 @@ const ContactPage = () => {
                             <div><WhatsAppIcon /> +62-899-1234-5678</div>
                             <div><EmailIcon /> ghafara.universe@gmail.com</div>
                             <div><RoomIcon /> Jalan xxxx, Bandung, Jawa Barat, Indonesia</div>
+                        </Box>
+                        <Box sx={{ mt: '4px', ml: '-8px' }}>
+                            <IconButton>
+                                <InstagramIcon />
+                            </IconButton>
+                            <IconButton>
+                                <LinkedInIcon />
+                            </IconButton>
+                            <IconButton>
+                                <FacebookIcon />
+                            </IconButton>
                         </Box>
                     </Grid>
                     <Grid item xs={12} md={6}>
