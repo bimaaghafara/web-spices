@@ -42,7 +42,7 @@ const Teams = () => {
         linkedin,
         ig,
     }) => (
-        <Box sx={{ p: ['2px 2px', '2px 8px'] }}>
+        <Box sx={{ p: ['2px 4px', '2px 8px'] }}>
             <Card sx={{ m: 'auto' }}>
                 <CardMedia
                     component="img"
