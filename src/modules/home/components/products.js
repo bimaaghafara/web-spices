@@ -47,7 +47,7 @@ const Products = () => {
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
-                        <img src="/img/jahe-merah.png" alt="" style={{ maxWidth: '100%' }} />
+                        <img src="/img/jahe-gajah.jpeg" alt="" style={{ maxWidth: '100%' }} />
                         <p>
                         Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
                         </p>
@@ -55,7 +55,7 @@ const Products = () => {
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
-                        <img src="/img/jahe-merah.png" alt="" style={{ maxWidth: '100%' }} />
+                        <img src="/img/jahe-merah.jpeg" alt="" style={{ maxWidth: '100%' }} />
                         <p>
                         Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
                         </p>

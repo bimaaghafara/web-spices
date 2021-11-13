@@ -25,7 +25,7 @@ const KeyFeatures = () => (
             <Grid item xs={12} sm={6} className="key-right">
                 <ThumbUpAltIcon />
                 <p>
-                    Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment , delivering financial results that meet investor expectations.
+                    Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment, delivering financial results that meet investor expectations.
                 </p>
             </Grid>
             <Grid item xs={12} sm={6} className="key-left">
@@ -37,7 +37,7 @@ const KeyFeatures = () => (
             <Grid item xs={12} sm={6} className="key-right">
                 <WbSunnyIcon />
                 <p>
-                Innovation means inventing, designing, developing products and services that have high appeal in the marketplace and strengthen customer preference for the Universal Coco Indonesia project.
+                Innovation means inventing, designing, developing products and services that have high appeal in the marketplace and strengthen customer preference for the Ghafara Universe Indonesia project.
                 </p>
             </Grid>
         </Grid>
