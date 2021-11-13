@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import Link from 'next/link';
+import Button from '@mui/material/Button';
 
 const Products = () => {
     const settings = {
@@ -62,6 +64,17 @@ const Products = () => {
                     </Box>
                 </div>
             </Slider>
+            <Box sx={{ mb: '16px', textAlign: 'center' }}>
+                <Link href="/products" passHref>
+                    <Button color="inherit" sx={{
+                        p: '8px 24px',
+                        textDecoration: 'underline !important',
+                        textUnderlinePosition: 'under !important',
+                    }}>
+                        See more details . . .
+                    </Button>
+                </Link>
+            </Box>
         </Container>
     );
 }
