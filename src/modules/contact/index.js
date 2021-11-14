@@ -14,13 +14,26 @@ import EmailIcon from '@mui/icons-material/Email';
 const ContactPage = () => {
     return (
         <Layout showContact={false}>
-            <Container maxWidth="lg" sx={{ pt: '48px', mb: '60px', minHeight: '100vh' }}>
-                <Typography variant="h3" sx={{
+            <Container maxWidth="lg" sx={{ pt: '0px', mb: '60px', minHeight: '100vh' }}>
+                {/* <Typography variant="h3" sx={{
                     marginBottom: '24px',
                     fontSize: {xs: '2rem', md: '3rem' }
                 }}>
                     Contact Us
-                </Typography>
+                </Typography> */}
+                <Box>
+                    <iframe
+                        id=""
+                        allowtransparency="true"
+                        allowFullScreen="true"
+                        allow="geolocation; microphone; camera"
+                        src="https://my.forms.app/form/61913d848c8fa556a1a64489"
+                        frameBorder="0"
+                        style={{
+                            width: '1px', minWidth: '100%', height: '950px', border: 'none'
+                        }}
+                    />
+                </Box>
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={6}>
                         <Box sx={{
