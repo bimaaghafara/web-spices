@@ -39,10 +39,10 @@ const AboutUs = () => (
                         pr: { xs: 0, md : '20%' }
                     }}>
                         <p>
-                            We are Ghafara Universe. The profesional capable Supplier & Exporter for the Indonesian spices.
+                            We are Ghafara Coffee. The profesional capable Supplier & Exporter for the Indonesian arabica coffee beans.
                         </p>
                         <p>
-                            We process best spices plantations, spread across several islands in Indonesia. We only supply the best quality of spices from Indonesia. <span style={{ textDecoration: 'line-through'}}>We supply Cinnamon, Cloves, Black pepper, White pepper, Andaliman pepper, Coriander, Vanilla, Nutmeg, Cardamom, Candlenut, Star anise.</span> Please contact us for more info so we can discuss the further info.
+                            We process best coffee bean plantations, spread across several mountains in West Java, Indonesia. We only supply the best quality of arabica coffee bean from West Java Area also known as Java Preanger Coffee.We supply processsed coffee bean such as natural, full washed, semi washed, honey and wine speciality. Please contact us for more info so we can discuss the further info.
                         </p>
                     </Box>
                 </Box>

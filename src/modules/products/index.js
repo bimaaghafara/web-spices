@@ -51,27 +51,34 @@ const ProductsPage = () => {
                 </Typography>
                 {renderProduct({
                     direction: "row-reverse",
-                    title: "Jahe Gajah",
-                    img: "/img/jahe-gajah.jpeg",
+                    title: "arabica-fullwash",
+                    img: "/img/arabica-fullwash.jpeg",
                     desc1: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
                     desc2: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
                 })}
                 {renderProduct({
-                    title: "Jahe Merah",
-                    img: "/img/jahe-merah.png",
+                    title: "arabica-semiwash",
+                    img: "/img/arabica-semiwash.jpeg",
                     desc1: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
                     desc2: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
                 })}
                 {renderProduct({
                     direction: "row-reverse",
-                    title: "Jahe Merah",
-                    img: "/img/jahe-merah.jpeg",
+                    title: "arabica-natural",
+                    img: "/img/arabica-natural.jpeg",
                     desc1: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
                     desc2: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
                 })}
                 {renderProduct({
-                    title: "Jahe Merah",
-                    img: "/img/jahe-merah.png",
+                    title: "arabica-honey",
+                    img: "/img/arabica-honey.jpeg",
+                    desc1: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
+                    desc2: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
+                })}
+                {renderProduct({
+                    direction: "row-reverse",
+                    title: "arabica-wine",
+                    img: "/img/arabica-wine.jpeg",
                     desc1: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
                     desc2: "Alpinia purpurata, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.",
                 })}
