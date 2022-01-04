@@ -49,6 +49,12 @@ const ProductsPage = () => {
                 }}>
                     Products
                 </Typography>
+                <p>ARABICA JAVA PREANGER
+The history of West Java Arabica which often called JAVA PREANGER and why the term “a Cup of Java” became synonym with “a Cup of Coffee” dated back to 17th century when West Java was still part of the Dutch colony, was chosen as the first coffee cultivation place outside Arabia and Ethiopia because of its mountaineous lands’ fertile volcanic soil with altitudes ranging from 1,200 to 1,800 metres above sea level. In the 1700s, coffee from West Java was first exported and was very well received. JAVA PREANGER was reputable for being the premium component in the world’s oldest and most well-known coffee blend, the MOCHA JAVA.</p>
+
+<p>The province of West Java with a population of over 45 million people is called tanah Sunda or tanah Priangan (translated to land of Sunda or land of Preanger), hence the name of coffee from West Java is called JAVA PREANGER.</p>
+
+<p>JAVA PREANGER coffee has a superior distinctive taste because of the use of a variety of coffee beans which are able to adapt to the local environment as well as the region’s long history of coffee cultivation. Even now, the cherries and beans are brought down to processing facilities on scooters through steep roads. The high elevations, rainfall and cooler temperatures give the JAVA PREANGER a much sweeter, herbally, and flowery taste with low to medium acidity, medium body with chocolaty caramel after taste and nutty caramel aroma.</p>
                 {renderProduct({
                     direction: "row-reverse",
                     title: "arabica-fullwash",
