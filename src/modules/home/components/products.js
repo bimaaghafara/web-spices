@@ -33,6 +33,17 @@ const Products = () => {
             }
         ],
     };
+
+    const Image = (src) => (
+        <Box sx={{
+            width: '100%',
+            paddingBottom: '75%',
+            backgroundImage: `url("${src}")`,
+            backgroundPosition: 'center center',
+            backgroundSize: 'cover',
+        }} />
+    )
+
     return (
         <Container maxWidth="lg" sx={{ pt: '48px'}}>
             <Typography variant="h3" sx={{ mb: '24px', fontSize: {xs: '2rem', md: '3rem', textAlign: 'center' }}}>
@@ -41,7 +52,7 @@ const Products = () => {
             <Slider {...settings}>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
-                        <img src="/img/arabica-fullwash.jpeg" alt="" style={{ maxWidth: '100%' }} />
+                        {Image("/img/arabica-fullwash.jpeg")}
                         <p>
                         arabica-fullwash, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
                         </p>
@@ -49,7 +60,7 @@ const Products = () => {
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
-                        <img src="/img/arabica-semiwash.jpeg" alt="" style={{ maxWidth: '100%' }} />
+                        {Image("/img/arabica-semiwash.jpeg")}
                         <p>
                         arabica-semiwash, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
                         </p>
@@ -57,7 +68,7 @@ const Products = () => {
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
-                        <img src="/img/arabica-natural.jpeg" alt="" style={{ maxWidth: '100%' }} />
+                        {Image("/img/arabica-natural.jpeg")}
                         <p>
                         arabica-natural, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
                         </p>
@@ -65,7 +76,7 @@ const Products = () => {
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
-                        <img src="/img/arabica-honey.jpeg" alt="" style={{ maxWidth: '100%' }} />
+                        {Image("/img/arabica-honey.jpeg")}
                         <p>
                         arabica-honey, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
                         </p>
@@ -73,7 +84,7 @@ const Products = () => {
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
-                        <img src="/img/arabica-wine.jpeg" alt="" style={{ maxWidth: '100%' }} />
+                        {Image("/img/arabica-wine.jpeg")}
                         <p>
                         arabica-wine, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
                         </p>
