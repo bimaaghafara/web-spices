@@ -53,40 +53,55 @@ const Products = () => {
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
                         {Image("/img/arabica-fullwash.jpeg")}
-                        <p>
-                        arabica-fullwash, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
+                        <p style={{ lineHeight: 1.5, textAlign: 'justify' }}>
+                            <b>Arabica Fullwash</b> 
+                            <div>
+                                Starting with put the cherries in the water to separate them. The ripe ones will sink, whereas the unripe will float. The next stage is to remove the pulp, or the skin of the ripe cherries. A machine called ...
+                            </div>
                         </p>
                     </Box>
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
                         {Image("/img/arabica-semiwash.jpeg")}
-                        <p>
-                        arabica-semiwash, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
+                        <p style={{ lineHeight: 1.5, textAlign: 'justify' }}>
+                            <b>Arabica Semiwash</b> 
+                            <div>
+                                Like fullwash process, the cherries will be put in the water to separate them. The ripe ones will sink, whereas the unripe will float. The next stage is to remove the pulp with depulper machine ...
+                            </div>
                         </p>
                     </Box>
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
                         {Image("/img/arabica-natural.jpeg")}
-                        <p>
-                        arabica-natural, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
+                        <p style={{ lineHeight: 1.5, textAlign: 'justify' }}>
+                            <b>Arabica Natural</b> 
+                            <div>
+                                In this process, the coffee beans is really done without using machines and water (processed naturally). After harvesting the cherries, the cherries is immediately dried (along with ...
+                            </div>
                         </p>
                     </Box>
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
                         {Image("/img/arabica-honey.jpeg")}
-                        <p>
-                        arabica-honey, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
+                        <p style={{ lineHeight: 1.5, textAlign: 'justify' }}>
+                            <b>Arabica Honey</b> 
+                            <div>
+                                No honey goes into the coffee through this process. In this context, honey refers to the amount of mucilage that is left on the seed. After harvesting, the skin and pulp will be removed from ...
+                            </div>
                         </p>
                     </Box>
                 </div>
                 <div>
                     <Box sx={{ p: ['2px', '16px']}}>
                         {Image("/img/arabica-wine.jpeg")}
-                        <p>
-                        arabica-wine, red ginger, also called ostrich plume and pink cone ginger, are native Indonesian plants with showy flowers on long brightly colored red bracts. They look like the bloom, but the true flower is the small white flower on top. It has cultivars called Jungle King and Jungle Queen.
+                        <p style={{ lineHeight: 1.5, textAlign: 'justify' }}>
+                            <b>Arabica Wine</b> 
+                            <div>
+                                Like Natural process, wine process is also done without using machines and water. Wine process is a processing method in which coffee cherries are left to over-ripen, dry and then ferment under ...
+                            </div>
                         </p>
                     </Box>
                 </div>
