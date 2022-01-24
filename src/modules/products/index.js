@@ -89,7 +89,7 @@ const ProductsPage = () => {
                     direction: "row-reverse",
                     title: "Arabica Natural",
                     img: "/img/arabica-natural.jpeg",
-                    desc1: `In this process, the coffee beans is really done without using machines and water (processed naturally). After harvesting the cherries, the cherries is immediately dried (along with the skin layer) under the sun. The cherries are then turned over periodically to dry evenly. With this process, the cherries will naturally ferment and the outer skin will peel off by itself. This process is widely applied by farmers in Indonesia because of its simple method. However, although it is fairly simple, this process is also quite risky because it relies on the weather. If there is no rain, this drying process can take up to 4 - 6 weeks. The taste produced from naturally processed coffee beans is usually has a strong fruity taste.`,
+                    desc1: `In this process, the coffee beans is really done without water (processed naturally). After harvesting the cherries, the cherries is immediately dried (along with the skin layer) under the sun. The cherries are then turned over periodically to dry evenly. With this process, the cherries will naturally ferment and the outer skin will peel off by itself. This process is widely applied by farmers in Indonesia because of its simple method. However, although it is fairly simple, this process is also quite risky because it relies on the weather. If there is no rain, this drying process can take up to 4 - 6 weeks. The taste produced from naturally processed coffee beans is usually has a strong fruity taste.`,
                 })}
                 {renderProduct({
                     title: "Arabica Honey Speciality",
@@ -100,7 +100,7 @@ const ProductsPage = () => {
                     direction: "row-reverse",
                     title: "Arabica Wine Speciality",
                     img: "/img/arabica-wine.jpeg",
-                    desc1: `Like Natural process, wine process is also done without using machines and water. Wine process is a processing method in which coffee cherries are left to over-ripen, dry and then ferment under sunlight. While natural process takes 2 weeks, wine process takes more time about 4 - 9 weeks. This process is also quite risky because it relies on the weather. The drying process is longer because farmers believe that the longer the cherries are dried, the more the cherries will stick to the coffee beans. And that's what will bring out the taste and wine scent.`,
+                    desc1: `Like Natural process, wine process is also done without water. Wine process is a processing method in which coffee cherries are left to over-ripen, dry and then ferment under sunlight. While natural process takes 2 weeks, wine process takes more time about 4 - 9 weeks. This process is also quite risky because it relies on the weather. The drying process is longer because farmers believe that the longer the cherries are dried, the more the cherries will stick to the coffee beans. And that's what will bring out the taste and wine scent.`,
                 })}
             </Container>
         </Layout>
