@@ -17,7 +17,7 @@ const HomePage = () => {
             <AboutUs />
             <KeyFeatures />
             <Products />
-            <Teams />
+            {/* <Teams /> */}
         </Layout>
     );
 };

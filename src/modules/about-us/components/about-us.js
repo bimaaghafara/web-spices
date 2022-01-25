@@ -57,13 +57,13 @@ const AboutUs = () => (
                     }}
                 >
                     <SmallBox
-                        sx={{ background: '#f009', top: '50%' }}
+                        sx={{ background: '#361E13', top: '50%' }}
                     />
                     <SmallBox
-                        sx={{ background: '#0f09', left: '50%' }}
+                        sx={{ background: '#462E25', left: '50%' }}
                     />
                     <SmallBox
-                        sx={{ background: '#ff0c', top: '25%', left: '25%' }}
+                        sx={{ background: '#AC886F', top: '25%', left: '25%' }}
                     />
                 </Box>
             </Grid>
