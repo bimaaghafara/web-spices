@@ -10,6 +10,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Drawer from '@mui/material/Drawer';
 import Link from 'next/link'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import EmailIcon from '@mui/icons-material/Email';
 
 const links = [
     { href: '/', label: 'Home' },
@@ -72,6 +74,23 @@ const MobileDrawer = () => {
                             </Link>
                         </div>
                     ))}
+                    <Box sx={{
+                        p: '8px',
+                        marginTop: '22px',
+                        fontSize: '10px',
+                        '& >div': {
+                            display: 'flex',
+                            alignItems: 'center',
+                            marginBottom: '8px',
+                        },
+                        '& svg': {
+                            fontSize: '14px',
+                            margin: '0 4px -2px 0',
+                        }
+                    }}>
+                        <div><WhatsAppIcon /> +62-899-6469-000</div>
+                        <div><EmailIcon /> ghafara.universe@gmail.com</div>
+                    </Box>
                 </Box>
             </Drawer>
         </>
@@ -94,14 +113,32 @@ const Nav = () => {
                                 display: {
                                     xs: 'none',
                                     md: 'block'
-                                }
+                                },
+                                width: '90%'
                             }}
                         >
                             {links.map((link, i) => (
                                 <Link href={link.href} key={i}>
-                                    <Button color="inherit">{link.label}</Button>
+                                    <Button sx={{ mt: '6px' }} color="inherit">{link.label}</Button>
                                 </Link>
                             ))}
+                            <Box sx={{
+                                float: 'right',
+                                p: '4px',
+                                fontSize: '14px',
+                                '& >div': {
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    marginBottom: '2px',
+                                },
+                                '& svg': {
+                                    fontSize: '16px',
+                                    margin: '0 4px -2px 0',
+                                }
+                            }}>
+                                <div><WhatsAppIcon /> +62-899-6469-000</div>
+                                <div><EmailIcon /> ghafara.universe@gmail.com</div>
+                            </Box>
                         </Box>
                     </Toolbar>
                 </Container>

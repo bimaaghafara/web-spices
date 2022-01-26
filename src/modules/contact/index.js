@@ -44,9 +44,9 @@ const ContactPage = () => {
                                 marginRight: '2px'
                             }
                         }}>
-                            <div><WhatsAppIcon /> +62-899-1234-5678</div>
+                            <div><WhatsAppIcon /> +62-899-6469-000</div>
                             <div><EmailIcon /> ghafara.universe@gmail.com</div>
-                            <div><RoomIcon /> Jalan xxxx, Bandung, Jawa Barat, Indonesia</div>
+                            <div><RoomIcon /> Bandung, West Java, Indonesia</div>
                         </Box>
                         <Box sx={{ mt: '4px', ml: '-8px' }}>
                             <IconButton>

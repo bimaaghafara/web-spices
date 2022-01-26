@@ -71,9 +71,9 @@ const Footer = ({ showContact=true }) => {
                                         <Box sx={{ marginBottom: '8px' }}>
                                             Ghafara Universe are 24/7 available for support to their valuable customers. We know you are interested and want to know more about our products. Feel free to contact us at any time for any queries.
                                         </Box>
-                                        <div><WhatsAppIcon /> +62-899-1234-5678</div>
+                                        <div><WhatsAppIcon /> +62-899-6469-000</div>
                                         <div><EmailIcon /> ghafara.universe@gmail.com</div>
-                                        <div><RoomIcon /> Jalan xxxx, Bandung, Jawa Barat, Indonesia</div>
+                                        <div><RoomIcon /> Bandung, West Java, Indonesia</div>
                                     </Box>
                                 </Box>
                             </Grid>

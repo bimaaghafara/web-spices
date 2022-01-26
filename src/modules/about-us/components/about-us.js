@@ -39,7 +39,7 @@ const AboutUs = () => (
                         pr: { xs: 0, md : '20%' }
                     }}>
                         <p>
-                            We are Ghafara Coffee. The professional capable Supplier & Exporter for the Indonesian arabica coffee beans.
+                            We are Ghafara Universe. The professional capable Supplier & Exporter for the Indonesian arabica coffee beans.
                         </p>
                         <p>
                             We process best coffee bean plantations, spread across several mountains in West Java, Indonesia. We only supply the best quality of arabica coffee bean from West Java Area also known as Java Preanger Coffee. We supply processsed coffee bean such as natural, full washed, semi washed, honey and wine speciality. Please contact us for more info so we can discuss the further info.
