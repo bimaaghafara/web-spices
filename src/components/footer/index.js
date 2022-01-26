@@ -87,7 +87,7 @@ const Footer = ({ showContact=true }) => {
                 fontSize: ['8px', '8px', '12px']
             }}>
                 <Container maxWidth={'lg'}>
-                    © 2021 Ghafara Universe. All rights reserved
+                    © 2022 Ghafara Universe. All rights reserved
                 </Container>
             </Box>
         </Box>
